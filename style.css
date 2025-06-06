@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family:'Trebuchet Ms', 'lucida sans unicode', 'lucida Grande', 'lucida sans', Arial, sans-serif;
+    font-family:poppins;
+    font-weight: 300;
     
 }
 body{
@@ -10,4 +12,43 @@ body{
     justify-content: center;
     align-items:center;
     height:100vh;
+}
+.login-box{
+ background-color: rgb(225, 234, 234);
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+.login-box h2{
+    text-align: center;
+}
+.login-box button{
+    background-color:rgb(234, 18, 18);
+padding: 10px;
+color:#ccc;
+cursor: pointer;
+font-size: medium;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form-label { 
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+form input {
+   padding: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+form button:hover{
+    background-color: black;
+}
+.AB{
+    margin-top: 10px;
+    margin-left: 250px;
 }
